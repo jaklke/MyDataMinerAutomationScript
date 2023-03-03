@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{C8111460-F06C-4488-8D39-5DC4F739E11C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{60345BAC-A0AD-4DA3-BB6B-D88963BF2761}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{5054C767-2CAD-43BB-8B48-AD76267C16C7}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\readme.txt = Dlls\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{F52D30E5-296F-4EC3-97B4-B44AA00F641C}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\readme.txt = Documentation\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{216BA2ED-EBBD-41D9-8A65-D0E94D9125C0}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyDataMinerAutomationScript", "MyDataMinerAutomationScript", "{44888CE9-BB0F-4710-A73D-715A88918A2C}"
+	ProjectSection(SolutionItems) = preProject
+		MyDataMinerAutomationScript.xml = MyDataMinerAutomationScript.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{216BA2ED-EBBD-41D9-8A65-D0E94D9125C0} = {C8111460-F06C-4488-8D39-5DC4F739E11C}
+		{44888CE9-BB0F-4710-A73D-715A88918A2C} = {60345BAC-A0AD-4DA3-BB6B-D88963BF2761}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD0A440A-99ED-4730-854D-E4836A5293DC}
+	EndGlobalSection
+EndGlobal
