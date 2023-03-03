@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
   
-  jobs:
+jobs:
   deploy_artifact_job:
     runs-on: ubuntu-latest
     name: Deploy the artifact on the DataMiner System job
